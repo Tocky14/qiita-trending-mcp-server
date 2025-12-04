@@ -4,13 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"{src}/**/*.ts\"",
+    "lint:fix": "eslint \"{src}/**/*.ts\" --fix",
+    "format": "prettier --write \"{src}/**/*.ts\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.39.1",
     "@types/node": "^24.10.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "prettier": "3.7.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   },
