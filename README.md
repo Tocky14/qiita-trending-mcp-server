@@ -14,14 +14,6 @@ AIに外部ツールを組み込む際に、カスタムなAPI連携ではなく
 
 -----
 
-## ✨ アピールポイント (Key Features for Findy)
-
-  * **最新技術のキャッチアップ：** AIと外部ツール連携の最新規格である**MCP**と、そのTypeScriptフレームワークである**FastMCP**を採用しています。
-  * **クリーンなコード：** TypeScriptによる厳密な型定義と、ESLint/Prettierによる高いコード品質を維持しています。
-  * **モジュール設計：** Qiita APIの接続（`QiitaService.ts`）とMCPのインターフェース定義（`QiitaServer.ts`）を完全に分離した、**責務を意識した設計**になっています。
-
------
-
 ## 🛠️ 機能 (Available Tool)
 
 本サーバーは、以下の単一の**Tool**を提供します。
@@ -107,11 +99,5 @@ npm run lint
 本プロジェクトの品質を担保するため、`QiitaService.ts` の API連携部分を中心に**テストコード**を実装予定です。
 
   * `QiitaService`に対するモックを使った単体テストの導入。
-
------
-
-## 📄 ライセンス (License)
-
-本プロジェクトは [LICENSE TYPE, e.g., MIT License] の下で公開されています。
 
 -----
